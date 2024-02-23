@@ -1,0 +1,41 @@
+body{
+	text-align: center;
+	margin-top: 200px;
+	font-family: "Roboto", sans-serif;
+}
+
+h1{
+	margin-bottom: 5px;
+	font-size: 65px;
+}
+
+#value{
+	margin-bottom: 20px;
+	font-size: 100px;
+}
+
+.btn-container{
+	margin-top: 20px;
+	
+}
+
+button {
+	background-color: white;
+	border-radius: 8px;
+	width: 100px;
+	padding: .5em .1em;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 14px;
+	margin-right: 15px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: .5rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+button:hover{
+	transition: background-color .75s ease;
+	background-color: black;
+	color: white;
+}
